@@ -1,0 +1,82 @@
+//Q)Design a a HTML page with front validation for a student enrollment form for a music club 
+<!DOCTYPE html>
+    <head><title>Music Club Form</title></head>
+    <body>
+        <h1 style="color: blue;"><b>VIT Music Club</b></h1>
+        <h2>Form for Jr.Core Team Membership</h2>
+        <p>Please enter the following details for the selection process</p>
+        <form name="VITMusicClub" action="/action_page.php">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="regno">Registration Number:</label>
+            <input type="text" id="regno" name="regno"><br>
+            <label for="email">VIT Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact"><br>
+            
+            <h3><b>Mention Your Interests:</b></h3>
+            <input type="checkbox" id="c1" name="c1" value="Singing">
+            <label for="c1">Singing</label><br>
+            <input type="checkbox" id="c2" name="c2" value="Rapping">
+            <label for="c2">Rapping</label><br>
+            <input type="checkbox" name="c3" id="c3" value="Instrumentals">
+            <label for="c3">Instrumentals</label><br>
+            <input type="checkbox" id="c4" name="c4" value="Beatboxing"> 
+            <label for="c4">Beatboxing</label><br>
+            <input type="checkbox" id="c5" name="c5" value="Technicalities">
+            <label for="c5">Technicalities (Stage and equipment management; live sound mixing etc.)</label><br>
+            <label for="other">Other:</label>
+            <input type="text" id="other" name="others" value=""><br>
+            
+            <h3><b>Which instrument do you play</b></h3>
+            <input type="checkbox" id="i1" name="i1" value="None">
+            <label for="i1">None</label><br>
+            <input type="checkbox" id="i2" name="i2" value="Guitar">
+            <label for="i2">Guitar(Electric/Acoustic)</label><br>
+            <input type="checkbox" id="i3" name="i3" value="Bass">
+            <label for="i3">Bass</label><br>
+            <input type="checkbox" id="i4" name="i4" value="Drums">
+            <label for="i4">Drums</label><br>
+            <input type="checkbox" id="i5" name="i5" value="Keyboard">
+            <label for="i5">Keyboard/Synthesizer</label><br>
+            <input type="checkbox" id="i6" name="i6" value="Flute">
+            <label for="i6">Flute</label><br>
+            <label for="i7">Other:</label>
+            <input type="text" id="i7" name="i7" value=""><br>
+
+            <h3><b>Have you received professional training in music?</b></h3>
+            <input type="radio" id="y" name="y" value="Yes">
+            <label for="y">Yes, I have been professionaly trained</label><br>
+            <input type="radio" id="n" name="n" value="No">
+            <label for="n">No, I am self-trained</label><br>
+            <input type="radio" id="hobby" name="hobby" value="hobby">
+            <label for="hobby">I pursue music as a hobby</label><br>
+
+            <h3><b>Years of experience with music:</b></h3>
+            <input type="radio" id="0" name="0" value="0">
+            <label for="0">None</label><br>
+            <input type="radio" id="l5" name="l5"  value="less5">
+            <label for="l5">Less than 5 years</label><br>
+            <input type="radio" id="m5" name="m5" value="5to10">
+            <label for="m5">5-10 Years</label><br>
+            <input type="radio" id="10" name="10" value="more10">
+            <label for="10">More than 10 Years</label><br>
+
+            <h3><b>Which team do you think you will work best in:</b></h3>
+            <input type="checkbox" name="mteam" id="mteam" value="Management">
+            <label for="mteam">Management Team</label><br>
+            <input type="checkbox" id="Opteam" name="opteam" value="Operational">
+            <label for="opteam">Operational Team</label><br>
+            <input type="checkbox" name="team" id="tteam" value="Tech">
+            <label for="tteam">Technical Team</label><br>
+            <input type="checkbox" id="mkteam" name="mkteam" value="Market">
+            <label for="mkteam">Marketing Team</label><br>
+            <input type="checkbox" id="dteam" name="dteam" value="Designing">
+            <label for="dteam">Designing Team</label><br>
+
+            <br><input type="submit" value="Submit">
+        </form>
+</html>
